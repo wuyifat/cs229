@@ -1,0 +1,7 @@
+% Name: Yi Wu
+% SID: 861028074
+% Date: 11/13/2014
+% Course: CS 229
+% Assignment number: PS5
+
+When the kernel width goes to zero, the margin becomes zero. So the kernel will barely accept wrong data points. Therefore, if you want an error-free kernel, use small width. If you want the contour to be smooth, use large width.

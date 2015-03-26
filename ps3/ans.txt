@@ -1,0 +1,9 @@
+% Name: Yi Wu
+% SID: 861028074
+% Date: 10/30/2014
+% Course: CS 229
+% Assignment number: PS3
+
+Logistic regression takes 5 iterations to converge. Perceptron takes 179 iterations to converge.
+I prefer logistic regression because it converges faster.
+If the dataset is big, in perceptron algorithm each point will be considered multiple times. It takes too much time to converge. On the other hand, logistic regression updates w as a whole and converges faster. So use logistic regression for large dataset.

@@ -1,0 +1,13 @@
+% Name: Yi Wu
+% SID: 861028074
+% Date: 12/5/2014
+% Course: CS 229
+% Assignment number: PS7
+
+bagging: With the increase of number of trees, the result averages out more. So the method trends to be more stable and less error.
+
+refit bagging: When lambda is every small, the penalty is small. So the method doesn't regulate the loss too much. the error rate will be large. When lambda is every large, a lot of weights become zero. The method regulate it too much. So the error rate will also be large. Therefore, I expect to see a dip in between.
+
+boosting: When more trees are used, it fits the training data better. In the extreme case it will eventually overfit the model. So the error rate will be large. When only a few trees are used, obviously it will underfit the problem, so the error rate will also be large. Therefore, I expect to see a minimum in between.
+
+When comparing between three methods, I expect to see refit and boosting to be better than bagging, and boosting to yield the best error rate. But my plot doesn't support these. 

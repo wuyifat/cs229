@@ -1,0 +1,7 @@
+% Name: Yi Wu
+% SID: 861028074
+% Date: 10/17/2014
+% Course: CS 229
+% Assignment number: PS1
+
+When the dimension is high, the points are more sparse. The more sparse the points are, the more unsimilar a point is to its neighbors. Eventually the neighbors are not a good estimation to the point. So when apply the nearest neighbor method, we need to make sure the distance between points are small enough so that we can assume they are real neighbors.
